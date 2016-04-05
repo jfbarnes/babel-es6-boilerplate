@@ -4,8 +4,8 @@
   "description": "Boilerplate for npm projects requiring Babel ES6 transpilation (includes babel-cli)",
   "main": "",
   "scripts": {
-    "build": "babel src -d ./",
-    "watch": "babel src -w -d ./",
+    "build": "babel src -d lib",
+    "watch": "babel src -w -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
